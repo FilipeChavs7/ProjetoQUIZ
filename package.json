@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Projeto Quiz Game",
+  "main": "game.js",
+  "scripts": {
+    "start": "ws"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilipeChavs7/ProjetoEstagio.git"
+  },
+  "author": "Filipe Silveira Chaves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FilipeChavs7/ProjetoEstagio/issues"
+  },
+  "homepage": "https://github.com/FilipeChavs7/ProjetoEstagio#readme",
+  "dependencies": {
+    "local-web-server": "^4.2.1"
+  }
+}

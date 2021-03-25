@@ -1,0 +1,42 @@
+[
+    {
+        "title": " Em javascript, qual a diferença entre Set e Map?",
+        "choice1": "Ambas são interfaces que não permitem repetições, diferindo somente em suas implementações Hash e Tree",
+        "choice2": "Set é uma lista que não permite objetos duplicados, e que ao adicionar um segundo objeto, ele será ignorado, enquanto Map trabalha com pares de chave e valor, ou seja, através de uma chave você encontra um valor, portanto caso tente adicionar a mesma chave uma segunda vez ela irá sobrepor a primeira. Elas diferem também nas implementações mais usadas: HashSet, TreeSet e LinkedHashSet para SET e HashMap, TreeMap e LinkedHashMap para MAP ",
+        "choice3": "Set se comporta de maneira parecida com Object enquanto Map se comporta tal qual uma Array, ambos guardando somente valores únicos ",
+        "choice4":"Map implementa a interface java.util.Collection enquanto o Set, que pode ser considerado uma Collection, não o implementa",
+        "answer": 2
+      },
+      {
+        "title": "O que é closure em javascript?",
+        "choice1": "Closure é uma ferramente do javascript que pode agir como uma estrutura de repetição, ele só pode ser usado dentro de uma função em atividade",
+        "choice2": "Closure foi introduzido pelo ES2015, junto com outras palavras-chaves como Let e const. Variaveis definidas pelo closure trabalham com valores fixos e reais",
+        "choice3": "Closure, se refere à forma como funções definidas dentro de um contexto léxico (ou seja, o corpo de uma função, um bloco, um arquivo fonte) acessam variáveis definidas nesse contexto.trata-se de um tipo especial de objeto que combina duas coisas: a função e o ambiente onde a função foi criada.",
+        "choice4": "Closure está diretamente ligado com programação orientada a objetos, onde objetos nos permitem associar dados (as propriedades do objeto) utilizando um ou mais métodos. Porém, você não pode utilizar uma closure em um lugar onde você normalmente utilizaria um objeto de único método.",
+        "answer": 3
+      },
+      {
+        "title": "No CSS, qual a diferença entre pseudo-classes e pseudo-elementos?",
+        "choice1": "Pseudo-classes são elementos imaginários (ou elementos virtuais se preferires) no qual podemos aplicar estilos relativamente como parte de outros elementos reais, porém estes elementos imaginários não fazem parte do DOM, por exemplo, o ::before e ::after. Já os Pseudo-elementos são usadas para selecionar elementos que não podem ser expressados de outra forma a não ser usando atributos como: id's, classes.",
+        "choice2": "Pseudo-classes e pseudo-elementos se diferem somente na sintaxe utilizada, o primeiro utiliza '::' e o segundo ':' ",
+        "choice3": "Pseudo-classes são classes que não podem ser lidas pelo HTML5, devido a falta de compatibilidade. Já os Pseudo-elementos podem ser lidos por quaisquer especificações e linguagens",
+        "choice4": "Pseudo-classes são usadas para selecionar elementos que não podem ser expressados de outra forma a não ser usando atributos como: id's, classes. Já os pseudo-elementos são elementos imaginários (ou elementos virtuais se preferires) no qual podemos aplicar estilos relativamente como parte de outros elementos reais, porém estes elementos imaginários não fazem parte do DOM. Por exemplo, o ::before e ::after",
+        "answer": 4
+      },
+      {
+       "title": "Quais tags HTML são usadas para exibir os dados na forma tabular?",
+        "choice1": "As tags usadas para exibir dados na forma tabular são: <table>, <thead>, <tbody>, <tfoot> e <col>",
+        "choice2": "As tags usadas para exibir dados na forma tabular são: <table>, <thead>, <tbody>, <tfoot>, <ty>, <let>, <create>, <tr>, <th>, <td>, <caption>, <colgroup> e <col>",
+        "choice3": "As tags usadas para exibir dados na forma tabular são: <table>, <thead>, <tbody>, <tfoot>, <caption>, <colgroup> e <col>",
+        "choice4": "As tags usadas para exibir dados na forma tabular são: <table>, <thead>, <tbody>, <tfoot>, <tr>, <th>, <td>, <caption>, <colgroup> e <col>",
+        "answer": 4
+      },
+      {
+        "title": "Qual a principal diferença entre CSS Grid e Flexbox?",
+        "choice1": "A principal diferença entre CSS Grid e Flexbox está entre o Flexbox ser unidimensional, ou seja, trabalhar com linhas OU colunas, então é perfeito para, por exemplo, o desenvolvimento interno de COMPONENTES. Já o CSS Grid é multidimensional (ou bidimensional), ou seja, linhas E colunas, perfeito pra LAYOUTS, por exemplo.",
+        "choice2": "A principal diferença entre CSS Grid e Flexbox é que ambos são de gerações diferentes tornando assim incompatível a utilização conjunta deles, o mais recente, CSS Grid, possue mais compatibilidade com os navegadores",
+        "choice3": "A principal diferença está pelo CSS Grid ser um framework do CSS, enquanto o Flexbox é considerado atributo do CSS puro, sendo mais usado para centralizar ou posicionar < li >´s ou < div >´s que estão dentro de uma outra div mãe (contenedor)",
+        "choice4": "O CSS Grid é usado para projetar layouts unidimensionais simplificados, com uma disposição em linha reta, e é mais indicado para os componentes de aplicativos e layouts em escala pequena. Já o Flexbox é destinado à criação de layouts bidimensionais de complexidade maior — é ideal para organizar a estrutura de um esquema com elementos de nível mais elevado, como cabeçalhos, rodapés, seções e sidebar.",
+        "answer": 1
+      }
+]

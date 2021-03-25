@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="app.css" />
+    <script src="game.js"></script>
+  </head>
+  <body>
+    <div hidden id="myNav" class="overlay">
+      
+      <div class="overlay-content">
+        <h1>Game Over</h1>
+        <a class="button" onclick="restart()" >Restart</a>
+      </div>
+    </div>
+    <div hidden id="WinnerNav" class="overlayVictory">
+      <div class="overlay-content">
+        <h1>Congratulations</h1>
+        <h1>You Win</h1>
+        <a class="button2" onclick="restart2()" >Restart</a>
+      </div>
+    </div>
+    <div class="container">
+      <div id="app" class="flex-center flex-column">
+        <h1>Quiz Game</h1>
+        <a class="btn" onclick="start()" >Iniciar Jogo</a>
+      </div>
+    </div>
+    <script>
+      function start(){
+        navegarViaAjax('game.html', '#app')
+        startGame()
+      }
+      function restart(){
+        
+        startGame()
+        closeNav()
+      }
+      function restart2(){
+        
+        startGame()
+        closeNav2()
+      }
+      async function navegarViaAjax(url, seletor) {
+        if(!url || !seletor) return
+        const elemento = document.querySelector(seletor)
+        fetch(url)
+          .then(resp => resp.text())
+          .then(html => {
+            elemento.innerHTML = html
+          })
+      }
+    </script>
+  </body>
+</html>

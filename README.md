@@ -24,10 +24,10 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/FilipeChavs7/ProjetoEstagio
+$ git clone https://github.com/FilipeChavs7/ProjetoQUIZ
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd ProjetoEstagio
+$ cd QUIZGAME
 
 # Instale as dependências
 $ npm install
